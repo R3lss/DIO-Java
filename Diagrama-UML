@@ -1,9 +1,0 @@
-flowchart TD
-    n1["Iphone"] --> n2["TocaMusica"] & n3["Telefone"] & n4["Navegador"]
-    n3 --> n6["-ligar(String numero) <br>&nbsp;-atender() <br>-iniciarCorreioVoz()"]
-    n4 --> n7["+exibirPagina(String url)<br>+adicionarNovaAba()<br>-atualizarPagina()"]
-    n2 --> n8["+tocar()<br>+pausar()<br>-selecionarMusica()"]
-    n2@{ shape: rect}
-    style n2 color:#AA00FF
-    style n3 color:#AA00FF
-    style n4 color:#AA00FF
